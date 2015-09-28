@@ -1,0 +1,11 @@
+Here Zed reviews a bunch of Python keywords. These are the ones
+that are a little unfamiliar to someone coming from a Java,
+JavaScript, and Scala background:
+
+with - as statements
+
+del - delete from Dictionary - del X[Y]
+
+except, raise
+
+
