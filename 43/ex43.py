@@ -37,7 +37,7 @@ class Death(Scene):
 class CentralCorridor(Scene):
 
   def enter(self):
-    print "Here is the CentralCorridor of your besieged ship as it is being boarded."
+    print "Here is the Central Corridor of your besieged ship as it is being boarded."
     print "You see a Gothon of Planet Percal."
     action = raw_input("> ")
     if action == "shoot!":
@@ -126,6 +126,7 @@ class Finished(Scene):
     print "You won! Good job!"
     return 'finished'
 
+
 class Map(object):
   
   scenes = {
@@ -146,6 +147,7 @@ class Map(object):
 
   def opening_scene(self):
     return self.next_scene(self.start_scene)
+
 
 a_map = Map('central_corridor')
 a_game = Engine(a_map)
